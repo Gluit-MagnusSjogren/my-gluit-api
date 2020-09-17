@@ -1,4 +1,9 @@
 {
+    "liveServer.settings.proxy": {
+        "enable": true,
+        "baseUri": "/api",
+        "proxyUri": "http://localhost:7071/api/HttpImageSrcUrl"
+     },
     "azureFunctions.deploySubpath": ".",
     "azureFunctions.postDeployTask": "npm install",
     "azureFunctions.projectLanguage": "JavaScript",
